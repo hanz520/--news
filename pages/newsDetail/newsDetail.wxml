@@ -1,0 +1,11 @@
+<view class="detail" wx:if="{{show}}">
+  <view class="title">{{title}}</view>
+  <view class="other">
+    <view>分类：{{category}}</view>
+    <view>
+      <text>{{author}}</text>
+      <text>{{published}}</text>
+    </view>
+  </view>
+  <rich-text class="content" nodes="{{content}}"></rich-text>
+</view>

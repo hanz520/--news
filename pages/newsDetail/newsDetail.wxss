@@ -1,0 +1,20 @@
+.detail{
+  box-sizing: border-box;
+  padding: 40rpx;
+}
+.detail .title{
+  font-size: 36rpx;
+  line-height: 140%;
+  font-weight: 700;
+  margin-bottom: 10rpx;
+}
+.detail .other{
+  font-size: 28rpx;
+  color: #999;
+  white-space: nowrap;
+  margin-bottom: 20rpx;
+}
+.detail .other text{
+  margin-right: 20rpx;
+}
+
